@@ -1,18 +1,11 @@
 import React from "react";
-import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Image,
-} from "react-native";
+import { FlatList, Text, TouchableOpacity, View, Image } from "react-native";
+import { Icon } from "react-native-elements";
 
 import tw from "tailwind-react-native-classnames";
 
 import uberX from "../assets/UberX.webp";
 import food from "../assets/food.png";
-import { Icon } from "react-native-elements";
 
 const data = [
   {
@@ -61,5 +54,3 @@ const NavOptions = () => {
 };
 
 export default NavOptions;
-
-const styles = StyleSheet.create({});

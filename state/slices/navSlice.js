@@ -22,6 +22,7 @@ export const navSlice = createSlice({
   },
 });
 
+// Actions
 export const { setOrigin, setDestination, setTravelTimeInformation } =
   navSlice.actions;
 

@@ -3,7 +3,7 @@ import { View, SafeAreaView, Image } from "react-native";
 
 import tw from "tailwind-react-native-classnames";
 
-import uberLogo from "../assets/uber-logo.png";
+// import uberLogo from "../assets/uber-logo.png";
 import NavOptions from "../components/NavOptions";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
             height: 100,
             resizeMode: "contain",
           }}
-          source={{ uri: uberLogo }}
+          source={{ uri: "https://links.papareact.com/gzs" }}
         />
         <NavOptions />
       </View>

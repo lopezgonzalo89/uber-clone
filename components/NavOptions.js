@@ -4,20 +4,17 @@ import { Icon } from "react-native-elements";
 
 import tw from "tailwind-react-native-classnames";
 
-import uberX from "../assets/UberX.webp";
-import food from "../assets/food.png";
-
 const data = [
   {
     id: "123",
     title: "Get a ride",
-    image: uberX,
+    image: "https://links.papareact.com/3pn",
     screen: "MapScreen",
   },
   {
     id: "456",
     title: "Order food",
-    image: food,
+    image: "https://links.papareact.com/28w",
     screen: "EatsScreen",
   },
 ];

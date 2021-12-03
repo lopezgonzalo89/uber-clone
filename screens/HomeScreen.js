@@ -3,21 +3,20 @@ import { View, SafeAreaView, Image } from "react-native";
 
 import tw from "tailwind-react-native-classnames";
 
-// import uberLogo from "../assets/uber-logo.png";
 import NavOptions from "../components/NavOptions";
+import uberLogo from "../assets/uber-logo.png";
+
+const styles = {
+  safeAreaVIew: tw`bg-white h-full`,
+  view: tw`p-5`,
+  image: { width: 100, height: 100, resizeMode: "contain" },
+};
 
 const Home = () => {
   return (
-    <SafeAreaView style={tw`bg-white h-full`}>
-      <View style={tw`p-5`}>
-        <Image
-          style={{
-            width: 100,
-            height: 100,
-            resizeMode: "contain",
-          }}
-          source={{ uri: "https://links.papareact.com/gzs" }}
-        />
+    <SafeAreaView style={styles.safeAreaVIew}>
+      <View style={styles.view}>
+        <Image style={styles.image} source={uberLogo} />
         <NavOptions />
       </View>
     </SafeAreaView>
